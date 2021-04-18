@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Digg",
+    "office_numb": 1,
+    "latitud": 37.764726,
+    "longitud": -122.394523,
+    "companies": 668.8,
+    "design": 469.1
+  },
+  {
+    "name": "eBuddy",
+    "office_numb": 1,
+    "latitud": 52.3640933,
+    "longitud": 4.8919457,
+    "companies": 103.1,
+    "design": 65.8
+  },
+  {
+    "name": "eBuddy",
+    "office_numb": 3,
+    "latitud": 51.500152,
+    "longitud": -0.126236,
+    "companies": 143.9,
+    "design": 530.0
+  },
+  {
+    "name": "Phonezoo",
+    "office_numb": 1,
+    "latitud": 37.386376,
+    "longitud": -121.991471,
+    "companies": 296.9,
+    "design": 151.1
+  },
+  {
+    "name": "Techstars",
+    "office_numb": 1,
+    "latitud": 40.010492,
+    "longitud": -105.276843,
+    "companies": 335.5,
+    "design": 117.7
+  },
+  {
+    "name": "OnForce",
+    "office_numb": 1,
+    "latitud": 42.47218,
+    "longitud": -71.262508,
+    "companies": 250.1,
+    "design": 84.6
+  },
+  {
+    "name": "23andMe",
+    "office_numb": 1,
+    "latitud": 37.09024,
+    "longitud": -95.712891,
+    "companies": 105.5,
+    "design": 121.7
+  },
+  {
+    "name": "GridPoint",
+    "office_numb": 1,
+    "latitud": 38.888107,
+    "longitud": -77.091562,
+    "companies": 116.6,
+    "design": 73.7
+  },
+  {
+    "name": "HelioVolt",
+    "office_numb": 1,
+    "latitud": 30.216908,
+    "longitud": -97.685078,
+    "companies": 175.7,
+    "design": 30.8
+  },
+  {
+    "name": "TalentSpring",
+    "office_numb": 1,
+    "latitud": 47.680496,
+    "longitud": -122.120938,
+    "companies": 118.9,
+    "design": 50.8
+  },
+  {
+    "name": "fotopedia",
+    "office_numb": 1,
+    "latitud": 48.856667,
+    "longitud": 2.350987,
+    "companies": 111.9,
+    "design": 163.2
+  },
+  {
+    "name": "Phreesia",
+    "office_numb": 1,
+    "latitud": 40.739794,
+    "longitud": -73.985878,
+    "companies": 429.6,
+    "design": 887.6
+  },
+  {
+    "name": "Footnote",
+    "office_numb": 1,
+    "latitud": 40.3310529,
+    "longitud": -111.7276347,
+    "companies": 109.1,
+    "design": 44.8
+  },
+  {
+    "name": "Mytopia",
+    "office_numb": 1,
+    "latitud": 34.007967,
+    "longitud": -118.489681,
+    "companies": 438.4,
+    "design": 245.8
+  },
+  {
+    "name": "Strutta",
+    "office_numb": 1,
+    "latitud": 49.2821075,
+    "longitud": -123.1078045,
+    "companies": 153.4,
+    "design": 159.9
+  },
+  {
+    "name": "MarketLive",
+    "office_numb": 1,
+    "latitud": 38.2310498,
+    "longitud": -122.6309861,
+    "companies": 158.6,
+    "design": 52.6
+  },
+  {
+    "name": "Jedox",
+    "office_numb": 1,
+    "latitud": 47.997186,
+    "longitud": 7.853767,
+    "companies": 102.3,
+    "design": 18.5
+  },
+  {
+    "name": "Lehigh Technologies",
+    "office_numb": 1,
+    "latitud": 26.215648,
+    "longitud": -81.80187,
+    "companies": 105.6,
+    "design": 26.6
+  },
+  {
+    "name": "SAVO",
+    "office_numb": 1,
+    "latitud": 41.87675,
+    "longitud": -87.640458,
+    "companies": 196.8,
+    "design": 295.8
+  },
+  {
+    "name": "Transposagen Biopharmaceuticals",
+    "office_numb": 1,
+    "latitud": 38.048906,
+    "longitud": -84.499838,
+    "companies": 107.8,
+    "design": 28.2
+  },
+  {
+    "name": "Plastic Logic",
+    "office_numb": 1,
+    "latitud": 51.12601,
+    "longitud": 13.734177,
+    "companies": 101.7,
+    "design": 15.0
+  },
+  {
+    "name": "Burt",
+    "office_numb": 1,
+    "latitud": 59.337864,
+    "longitud": 18.036587,
+    "companies": 201.0,
+    "design": 74.3
+  },
+  {
+    "name": "TRUECar",
+    "office_numb": 5,
+    "latitud": 34.4405218,
+    "longitud": -119.7445783,
+    "companies": 218.5,
+    "design": 33.7
+  },
+  {
+    "name": "Tweegee",
+    "office_numb": 1,
+    "latitud": 32.037363,
+    "longitud": 34.8003705,
+    "companies": 200.0,
+    "design": 18.9
+  },
+  {
+    "name": "Inuvo",
+    "office_numb": 1,
+    "latitud": 27.913011,
+    "longitud": -82.702449,
+    "companies": 206.2,
+    "design": 29.8
+  },
+  {
+    "name": "FetchBack",
+    "office_numb": 1,
+    "latitud": 33.426418,
+    "longitud": -111.9396,
+    "companies": 109.1,
+    "design": 50.5
+  },
+  {
+    "name": "Lantronix",
+    "office_numb": 1,
+    "latitud": 33.66074,
+    "longitud": -117.739333,
+    "companies": 133.2,
+    "design": 84.1
+  },
+  {
+    "name": "ReverbNation",
+    "office_numb": 1,
+    "latitud": 36.002893,
+    "longitud": -78.904075,
+    "companies": 106.4,
+    "design": 28.1
+  },
+  {
+    "name": "Dukky",
+    "office_numb": 1,
+    "latitud": 29.973994,
+    "longitud": -90.082202,
+    "companies": 105.1,
+    "design": 32.0
+  },
+  {
+    "name": "SynapSense",
+    "office_numb": 1,
+    "latitud": 38.6456907,
+    "longitud": -121.1268303,
+    "companies": 128.9,
+    "design": 31.0
+  },
+  {
+    "name": "Movirtu",
+    "office_numb": 3,
+    "latitud": 28.5821195,
+    "longitud": 77.3266991,
+    "companies": 100.0,
+    "design": 119.1
+  },
+  {
+    "name": "3X Systems",
+    "office_numb": 1,
+    "latitud": 39.997754,
+    "longitud": -83.041781,
+    "companies": 107.9,
+    "design": 25.6
+  },
+  {
+    "name": "Clear2Pay",
+    "office_numb": 1,
+    "latitud": 51.0551923,
+    "longitud": 4.4609658,
+    "companies": 103.3,
+    "design": 40.4
+  },
+  {
+    "name": "FlightStats",
+    "office_numb": 1,
+    "latitud": 45.519154,
+    "longitud": -122.675428,
+    "companies": 114.9,
+    "design": 145.5
+  },
+  {
+    "name": "Bluelock",
+    "office_numb": 1,
+    "latitud": 39.8705647,
+    "longitud": -86.2374314,
+    "companies": 108.1,
+    "design": 27.1
+  },
+  {
+    "name": "Unkasoft Advergaming",
+    "office_numb": 1,
+    "latitud": 40.4474363,
+    "longitud": -3.6714915,
+    "companies": 101.5,
+    "design": 23.9
+  },
+  {
+    "name": "Unkasoft Advergaming",
+    "office_numb": 3,
+    "latitud": 41.0016627,
+    "longitud": -5.6937933,
+    "companies": 101.5,
+    "design": 12.1
+  },
+  {
+    "name": "Sepaton",
+    "office_numb": 1,
+    "latitud": 42.334732,
+    "longitud": -71.592595,
+    "companies": 132.3,
+    "design": 64.4
+  },
+  {
+    "name": "Suniva",
+    "office_numb": 1,
+    "latitud": 33.954713,
+    "longitud": -84.2213281,
+    "companies": 112.4,
+    "design": 67.1
+  },
+  {
+    "name": "Netbiscuits",
+    "office_numb": 1,
+    "latitud": 49.4559965,
+    "longitud": 7.8068522,
+    "companies": 102.8,
+    "design": 119.6
+  },
+  {
+    "name": "Helpful Technologies",
+    "office_numb": 1,
+    "latitud": 26.2032036,
+    "longitud": -80.1510951,
+    "companies": 106.3,
+    "design": 49.8
+  },
+  {
+    "name": "Applied Genetics Technologies Corporation",
+    "office_numb": 1,
+    "latitud": 29.7847641,
+    "longitud": -82.4768036,
+    "companies": 106.6,
+    "design": 29.1
+  },
+  {
+    "name": "Stormfisher Biogas",
+    "office_numb": 1,
+    "latitud": 43.6538625,
+    "longitud": -79.3670135,
+    "companies": 106.1,
+    "design": 88.8
+  },
+  {
+    "name": "LigoCyte Pharmaceuticals",
+    "office_numb": 1,
+    "latitud": 45.6686485,
+    "longitud": -111.0662396,
+    "companies": 107.7,
+    "design": 17.0
+  },
+  {
+    "name": "Luca Technologies",
+    "office_numb": 2,
+    "latitud": 44.2264,
+    "longitud": -105.604,
+    "companies": 109.8,
+    "design": 19.1
+  },
+  {
+    "name": "Inspire Medical Systems",
+    "office_numb": 1,
+    "latitud": 45.069344,
+    "longitud": -93.4034162,
+    "companies": 106.5,
+    "design": 49.3
+  }
+]

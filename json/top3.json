@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Digg",
+    "office_numb": 1,
+    "latitud": 37.764726,
+    "longitud": -122.394523,
+    "companies": 99.01,
+    "design": 52.32,
+    "score": 99.51,
+    "starbucks": 53.41,
+    "escuela_primaria": 97.44,
+    "aeropuerto": 35.7,
+    "disco": 50.8,
+    "restaurante_vegano": 71.93,
+    "estadio_de_baloncesto": 80.14,
+    "peluqueria_perros": 5.01
+  },
+  {
+    "name": "Phreesia",
+    "office_numb": 1,
+    "latitud": 40.739794,
+    "longitud": -73.985878,
+    "companies": 63.6,
+    "design": 99.01,
+    "score": 81.93,
+    "starbucks": 99.96,
+    "escuela_primaria": 0.0,
+    "aeropuerto": 17.18,
+    "disco": 99.92,
+    "restaurante_vegano": 99.8,
+    "estadio_de_baloncesto": 91.82,
+    "peluqueria_perros": 98.07
+  },
+  {
+    "name": "Mytopia",
+    "office_numb": 1,
+    "latitud": 34.007967,
+    "longitud": -118.489681,
+    "companies": 64.9,
+    "design": 27.42,
+    "score": 64.76,
+    "starbucks": 47.87,
+    "escuela_primaria": 75.13,
+    "aeropuerto": 22.66,
+    "disco": 21.83,
+    "restaurante_vegano": 30.0,
+    "estadio_de_baloncesto": 23.5,
+    "peluqueria_perros": 16.57
+  }
+]

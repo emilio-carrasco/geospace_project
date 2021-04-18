@@ -1,22 +1,11 @@
 from math import radians
 from math import sin, cos, atan2, sqrt
+from functools import reduce
 
-def celda_latlon2pnt(lista):
-    return[{"type":"Point", "coordinates": d} for d in lista]
 
 def latlon2pnt(flat_list):
     return list(map(celda_latlon2pnt, flat_list))
 
-def flat_latlon(list_):
-    lista=[]
-    for sublist in list_:            
-            for item in sublist:
-                if item!=[] and (item['latitude'] is not None) and  (item['longitude'] is not None):
-                    tipo_point = {"type":"Point", "coordinates": [item['latitude'], item['longitude']]}
-                    lista.append(tipo_point)
-    lista_coordenadas = [{'tipo_p':l}    for l in lista]
-    
-    return lista_coordenadas
 
 
 def latlon_dist(latlon1,latlon2):
@@ -43,8 +32,61 @@ def latlon_dist(latlon1,latlon2):
     c = 2 * atan2(sqrt(a), sqrt(1 - a))
     return R * c 
 
-def une_rate_oficinas(list_oficinas,list_ranking,name_):
-    for i,r in enumerate(list_ranking):
-        list_oficinas[i][name_]=round(r,2)
 
-    return(list_oficinas)
+def score_normalizer(lista,*filtros):
+    for f in filtros:
+        maximo=reduce(lambda x,y:max(x,y),[l[f] for l in lista])
+        for l in lista:
+            f_Strip=f.strip()
+            l[f]=round(100*l[f]/(maximo+1),2)
+
+    return lista       
+
+def selector(lista,**pesos):
+    lista_out=[]
+    for i,l in enumerate(lista):
+        score=0
+
+        for k,v in pesos.items():
+
+            score+=round(l[k]*v/100,2)  
+        l['score']=score
+        lista_out.append(l)
+
+    return(score_normalizer(lista_out,"score"))
+
+def top(n,l,campo):
+    l_ordenata = sorted(l, reverse=True, key=lambda k: k[campo]) 
+    return l_ordenata[0:n]
+
+def quita_office_null(lista):
+    lista_out=list()
+    for l in lista:  
+        for i,oficina in enumerate(l['offices']):
+            if  (oficina['latitude'] != None)  and  (oficina['longitude'] != None):
+                lista_out.append({'name':l['name'], 'office_numb':i+1, 'latitud': oficina['latitude'], 'longitud':oficina['longitude'] })
+
+    return(lista_out)
+
+def quita_repes(lista):
+    l_out=[lista[0]]
+    for l in lista:
+
+        esta= False
+        for k in l_out:
+            if (abs(l['latitud']-k['latitud']))<0.3 and (abs(l['longitud']-k['longitud']))<0.3:
+                esta= True
+                break
+        
+        if not esta :
+            l_out.append(l)
+    return l_out
+
+
+
+
+
+
+
+
+
