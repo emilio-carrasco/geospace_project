@@ -1,0 +1,12 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+_libgcc_mutex=0.1=main
+ca-certificates=2021.4.13=h06a4308_1
+icu=68.1=h2531618_0
+libgcc-ng=9.1.0=hdf63c60_0
+libstdcxx-ng=9.1.0=hdf63c60_0
+libuv=1.40.0=h7b6447c_0
+nodejs=14.8.0=hda19d22_0
+openssl=1.1.1k=h27cfd23_0
+zlib=1.2.11=h7b6447c_3

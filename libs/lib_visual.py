@@ -7,7 +7,14 @@ import pandas as pd
 from keplergl import KeplerGl
 
 def imprime_mapa(lat,lon):
+    """
+    imprime un mapa carto de los serviciones que estamos estudiando
+    lo hace centrado en lat long y. para realizar el mapa consulta en FS los resultados.
 
+    tokens tiene que estar en .env
+
+    devuelve el mapa
+    """
 
     lista=["colegio", "starbucks","estadio de baloncesto", "bar","restaurante vegano","peluqueria perros","aeropuerto"]
    
@@ -107,6 +114,9 @@ def imprime_mapa(lat,lon):
     return mapa
 
 def imprime_kepler(df):
+    """
+    no lo he podido utilizar
+    """
     map_kepler= KeplerGl(height=700, weight = 500, data={'Empresas': df})
     map_kepler
 #show the map
