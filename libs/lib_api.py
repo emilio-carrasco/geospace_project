@@ -56,7 +56,7 @@ def foursquare_visual(coord,query):
                     "client_id": _id,
                     "client_secret": secret,
                     "v": "20180323",
-                    "radius":5000,
+                    "radius":100000,
                     "ll": f"{coord['latitud']},{coord['longitud']}",
                     "query": query, 
                     "limit": 50  
@@ -65,7 +65,6 @@ def foursquare_visual(coord,query):
     
     sleep(1)
     resp = requests.get(url= url_query, params = parametros).json()
-    print(resp)
     data = resp.get("response").get("groups")[0].get("items")
 
     mapa_latitud = ["venue", "location", "lat"]

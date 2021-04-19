@@ -1,137 +1,182 @@
 [
   {
-    "name": "Digg",
-    "office_numb": 1,
-    "latitud": 37.764726,
-    "longitud": -122.394523,
-    "companies": 99.85,
-    "design": 52.79,
-    "score": 99.21
-  },
-  {
     "name": "Phreesia",
     "office_numb": 1,
     "latitud": 40.739794,
     "longitud": -73.985878,
-    "companies": 64.14,
-    "design": 99.89,
-    "score": 89.67
+    "companies": 71.09,
+    "design": 99.69,
+    "score": 98.76
+  },
+  {
+    "name": "Digg",
+    "office_numb": 1,
+    "latitud": 37.764726,
+    "longitud": -122.394523,
+    "companies": 86.28,
+    "design": 56.41,
+    "score": 95.85
   },
   {
     "name": "Mytopia",
     "office_numb": 1,
     "latitud": 34.007967,
     "longitud": -118.489681,
-    "companies": 65.45,
-    "design": 27.66,
-    "score": 62.31
+    "companies": 99.67,
+    "design": 17.94,
+    "score": 93.16
+  },
+  {
+    "name": "Hangout Industries",
+    "office_numb": 1,
+    "latitud": 42.352835,
+    "longitud": -71.0609612,
+    "companies": 92.74,
+    "design": 29.74,
+    "score": 91.53
   },
   {
     "name": "Techstars",
     "office_numb": 1,
     "latitud": 40.010492,
     "longitud": -105.276843,
-    "companies": 50.09,
-    "design": 13.25,
-    "score": 44.57
+    "companies": 88.21,
+    "design": 15.98,
+    "score": 82.48
   },
   {
-    "name": "Phonezoo",
+    "name": "VideoSurf",
     "office_numb": 1,
-    "latitud": 37.386376,
-    "longitud": -121.991471,
-    "companies": 44.33,
-    "design": 17.0,
-    "score": 41.52
+    "latitud": 37.561877,
+    "longitud": -122.325248,
+    "companies": 71.12,
+    "design": 7.62,
+    "score": 64.55
   },
   {
     "name": "eBuddy",
     "office_numb": 3,
     "latitud": 51.500152,
     "longitud": -0.126236,
-    "companies": 21.48,
-    "design": 59.64,
-    "score": 40.32
+    "companies": 36.68,
+    "design": 87.07,
+    "score": 64.21
   },
   {
-    "name": "SAVO",
+    "name": "UsingMiles",
     "office_numb": 1,
-    "latitud": 41.87675,
-    "longitud": -87.640458,
-    "companies": 29.38,
-    "design": 33.29,
-    "score": 36.17
-  },
-  {
-    "name": "OnForce",
-    "office_numb": 1,
-    "latitud": 42.47218,
-    "longitud": -71.262508,
-    "companies": 37.34,
-    "design": 9.52,
-    "score": 33.09
-  },
-  {
-    "name": "TRUECar",
-    "office_numb": 5,
-    "latitud": 34.4405218,
-    "longitud": -119.7445783,
-    "companies": 32.62,
-    "design": 3.79,
-    "score": 27.13
+    "latitud": 39.749671,
+    "longitud": -104.9998449,
+    "companies": 66.92,
+    "design": 8.14,
+    "score": 61.09
   },
   {
     "name": "Burt",
     "office_numb": 1,
     "latitud": 59.337864,
     "longitud": 18.036587,
-    "companies": 30.01,
-    "design": 8.36,
-    "score": 26.87
+    "companies": 66.62,
+    "design": 6.64,
+    "score": 60.27
   },
   {
-    "name": "Inuvo",
+    "name": "Swype",
     "office_numb": 1,
-    "latitud": 27.913011,
-    "longitud": -82.702449,
-    "companies": 30.79,
-    "design": 3.35,
-    "score": 25.52
+    "latitud": 47.6495905,
+    "longitud": -122.3497956,
+    "companies": 66.72,
+    "design": 4.21,
+    "score": 59.45
   },
   {
-    "name": "Strutta",
+    "name": "OnForce",
     "office_numb": 1,
-    "latitud": 49.2821075,
-    "longitud": -123.1078045,
-    "companies": 22.9,
-    "design": 17.99,
-    "score": 25.06
+    "latitud": 42.47218,
+    "longitud": -71.262508,
+    "companies": 67.36,
+    "design": 0.83,
+    "score": 58.76
+  },
+  {
+    "name": "TRUECar",
+    "office_numb": 4,
+    "latitud": 30.3096936,
+    "longitud": -97.9390133,
+    "companies": 67.26,
+    "design": 0.12,
+    "score": 58.41
   },
   {
     "name": "Tweegee",
     "office_numb": 1,
     "latitud": 32.037363,
     "longitud": 34.8003705,
-    "companies": 29.86,
-    "design": 2.13,
-    "score": 24.3
+    "companies": 66.62,
+    "design": 1.08,
+    "score": 58.2
   },
   {
-    "name": "HelioVolt",
+    "name": "Inuvo",
     "office_numb": 1,
-    "latitud": 30.216908,
-    "longitud": -97.685078,
-    "companies": 26.23,
-    "design": 3.47,
-    "score": 21.98
+    "latitud": 27.913011,
+    "longitud": -82.702449,
+    "companies": 66.62,
+    "design": 0.06,
+    "score": 57.83
   },
   {
-    "name": "MarketLive",
+    "name": "TRUECar",
+    "office_numb": 5,
+    "latitud": 34.4405218,
+    "longitud": -119.7445783,
+    "companies": 66.62,
+    "design": 0.0,
+    "score": 57.8
+  },
+  {
+    "name": "SAVO",
     "office_numb": 1,
-    "latitud": 38.2310498,
-    "longitud": -122.6309861,
-    "companies": 23.68,
-    "design": 5.92,
-    "score": 20.94
+    "latitud": 41.87675,
+    "longitud": -87.640458,
+    "companies": 51.37,
+    "design": 33.67,
+    "score": 57.1
+  },
+  {
+    "name": "Strutta",
+    "office_numb": 1,
+    "latitud": 49.2821075,
+    "longitud": -123.1078045,
+    "companies": 40.11,
+    "design": 30.48,
+    "score": 46.14
+  },
+  {
+    "name": "FlightStats",
+    "office_numb": 1,
+    "latitud": 45.519154,
+    "longitud": -122.675428,
+    "companies": 33.48,
+    "design": 30.48,
+    "score": 40.39
+  },
+  {
+    "name": "23andMe",
+    "office_numb": 1,
+    "latitud": 37.09024,
+    "longitud": -95.712891,
+    "companies": 33.31,
+    "design": 30.72,
+    "score": 40.34
+  },
+  {
+    "name": "Netbiscuits",
+    "office_numb": 1,
+    "latitud": 49.4559965,
+    "longitud": 7.8068522,
+    "companies": 33.31,
+    "design": 30.72,
+    "score": 40.34
   }
 ]

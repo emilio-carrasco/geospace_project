@@ -1,53 +1,61 @@
-import sys
-sys.path.append('./libs')
-import pandas as pd
+
+
 from lib_api import foursquare_visual
+
 from folium import  Marker, Icon, Map
+import pandas as pd
+from keplergl import KeplerGl
 
 def imprime_mapa(lat,lon):
-    lista=["starbucks","estadio de baloncesto", "restaurante vegano","escuelas primaria","peluqueria perros","aeropuerto"]
+
+
+    lista=["colegio", "starbucks","estadio de baloncesto", "bar","restaurante vegano","peluqueria perros","aeropuerto"]
    
     tipo=list()
     latitud=list()
     longitud=list()
+
     for q in lista:
         resultado=foursquare_visual({'latitud':lat, 'longitud':lon},q)
+       
         for r in resultado:
             tipo.append(q.replace(" ","_"))
             latitud.append(r['latitud'])
             longitud.append(r['longitud'])
+        #if q == "colegio" or q == "peluqueria perros":
+        #    print(pd.DataFrame({'tipo':tipo,'latitud':latitud,'logitud':longitud}))
+        #    raise
         
-
+    
     df=pd.DataFrame({'tipo':tipo,'latitud':latitud,'logitud':longitud})
 
     
 
-    map_2 = Map(location=[lat,lon],zoom_start=15)
+    mapa = Map(location=[lat,lon],zoom_start=15)
 
-    establecimiento = {
+    empresa = {
             "location":[lat, lon ],
             "tooltip" : "Empresa"
         }
-    icon = Icon(color = "beiredge",
+    icon = Icon(color = "red",
                         prefix = "fa",
-                        icon = "dot-circle",
+                        icon = "fa-dot-circle-o",
                         icon_color = "white"
             )
+    Marker(**empresa,icon = icon ).add_to(mapa)
 
-    Marker(**establecimiento,icon = icon ).add_to(map_2)
+
     for i, row in df.iterrows():
-        
         establecimiento = {
             "location":[row["latitud"], row["logitud"]],
-            "tooltip" : row["tipo"]
+            "tooltip" : row["tipo"].replace("_"," ").capitalize()
         }
 
-
         if row["tipo"] == "starbucks":
-            icon = Icon(color = "beige",
+            icon = Icon(color = "green",
                         prefix = "fa",
-                        icon = "coffee-togo",
-                        icon_color = "black"
+                        icon = "fa-coffee",
+                        icon_color = "white"
             )
             
         elif row["tipo"] == "restaurante_vegano":
@@ -57,38 +65,48 @@ def imprime_mapa(lat,lon):
                         icon_color = "black"
             )
 
-        elif row["tipo"] == "escuelas_primaria":
+        elif row["tipo"] == "colegio":
             icon = Icon(color = "blue",
                         prefix = "fa",
-                        icon = "child",
+                        icon = "fa-graduation-cap ",
                         icon_color = "black"
             )
         
         elif row["tipo"] == "peluqueria_perros":
             icon = Icon(color = "red",
                         prefix = "fa",
-                        icon = "dog",
+                        icon = "fa-paw",
                         icon_color = "black"
             )
 
         elif row["tipo"] == "estadio_de_baloncesto":
             icon = Icon(color = "orange",
                         prefix = "fa",
-                        icon = "basketball-ball",
+                        icon = "fa-futbol-o ",
                         icon_color = "black"
             )
 
         elif row["tipo"] == "aeropuerto":
-            icon = Icon(color = "grey",
+            icon = Icon(color = "white",
                         prefix = "fa",
-                        icon = "plane",
+                        icon = "fa-plane",
                         icon_color = "black"
+            )
+        elif row["tipo"] == "bar":
+            icon = Icon(color = "pink",
+                        prefix = "fa",
+                        icon = "fa-glass",
+                        icon_color = "white"
             )
             
         else:
                         prefix = "fa",
                         icon = "briefcase",
-                        icon_color = "black"
-            
-        Marker(**establecimiento,icon = icon ).add_to(map_2)
-    map_2
+                        icon_color = "black"            
+        Marker(**establecimiento,icon = icon ).add_to(mapa)
+    return mapa
+
+def imprime_kepler(df):
+    map_kepler= KeplerGl(height=700, weight = 500, data={'Empresas': df})
+    map_kepler
+#show the map

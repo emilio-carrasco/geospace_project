@@ -6,8 +6,6 @@ from functools import reduce
 def latlon2pnt(flat_list):
     return list(map(celda_latlon2pnt, flat_list))
 
-
-
 def latlon_dist(latlon1,latlon2):
     """
     This functions returns the distance between 2 points with its coordinates
@@ -32,23 +30,19 @@ def latlon_dist(latlon1,latlon2):
     c = 2 * atan2(sqrt(a), sqrt(1 - a))
     return R * c 
 
-
 def score_normalizer(lista,*filtros):
     for f in filtros:
         maximo=reduce(lambda x,y:max(x,y),[l[f] for l in lista])
         for l in lista:
             f_Strip=f.strip()
             l[f]=round(100*l[f]/(maximo+1),2)
-
     return lista       
 
 def selector(lista,**pesos):
     lista_out=[]
     for i,l in enumerate(lista):
         score=0
-
         for k,v in pesos.items():
-
             score+=round(l[k]*v/100,2)  
         l['score']=score
         lista_out.append(l)
@@ -74,7 +68,7 @@ def quita_repes(lista):
 
         esta= False
         for k in l_out:
-            if (abs(l['latitud']-k['latitud']))<0.3 and (abs(l['longitud']-k['longitud']))<0.3:
+            if (abs(l['latitud']-k['latitud']))<0.2 and (abs(l['longitud']-k['longitud']))<0.2:
                 esta= True
                 break
         
