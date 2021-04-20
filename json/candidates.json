@@ -6,7 +6,7 @@
     "longitud": -73.985878,
     "companies": 71.09,
     "design": 99.69,
-    "score": 98.76
+    "score": 99.3
   },
   {
     "name": "Digg",
@@ -15,7 +15,7 @@
     "longitud": -122.394523,
     "companies": 86.28,
     "design": 56.41,
-    "score": 95.85
+    "score": 88.65
   },
   {
     "name": "Mytopia",
@@ -24,16 +24,7 @@
     "longitud": -118.489681,
     "companies": 99.67,
     "design": 17.94,
-    "score": 93.16
-  },
-  {
-    "name": "Hangout Industries",
-    "office_numb": 1,
-    "latitud": 42.352835,
-    "longitud": -71.0609612,
-    "companies": 92.74,
-    "design": 29.74,
-    "score": 91.53
+    "score": 79.11
   },
   {
     "name": "Techstars",
@@ -42,16 +33,7 @@
     "longitud": -105.276843,
     "companies": 88.21,
     "design": 15.98,
-    "score": 82.48
-  },
-  {
-    "name": "VideoSurf",
-    "office_numb": 1,
-    "latitud": 37.561877,
-    "longitud": -122.325248,
-    "companies": 71.12,
-    "design": 7.62,
-    "score": 64.55
+    "score": 70.06
   },
   {
     "name": "eBuddy",
@@ -60,79 +42,7 @@
     "longitud": -0.126236,
     "companies": 36.68,
     "design": 87.07,
-    "score": 64.21
-  },
-  {
-    "name": "UsingMiles",
-    "office_numb": 1,
-    "latitud": 39.749671,
-    "longitud": -104.9998449,
-    "companies": 66.92,
-    "design": 8.14,
-    "score": 61.09
-  },
-  {
-    "name": "Burt",
-    "office_numb": 1,
-    "latitud": 59.337864,
-    "longitud": 18.036587,
-    "companies": 66.62,
-    "design": 6.64,
-    "score": 60.27
-  },
-  {
-    "name": "Swype",
-    "office_numb": 1,
-    "latitud": 47.6495905,
-    "longitud": -122.3497956,
-    "companies": 66.72,
-    "design": 4.21,
-    "score": 59.45
-  },
-  {
-    "name": "OnForce",
-    "office_numb": 1,
-    "latitud": 42.47218,
-    "longitud": -71.262508,
-    "companies": 67.36,
-    "design": 0.83,
-    "score": 58.76
-  },
-  {
-    "name": "TRUECar",
-    "office_numb": 4,
-    "latitud": 30.3096936,
-    "longitud": -97.9390133,
-    "companies": 67.26,
-    "design": 0.12,
-    "score": 58.41
-  },
-  {
-    "name": "Tweegee",
-    "office_numb": 1,
-    "latitud": 32.037363,
-    "longitud": 34.8003705,
-    "companies": 66.62,
-    "design": 1.08,
-    "score": 58.2
-  },
-  {
-    "name": "Inuvo",
-    "office_numb": 1,
-    "latitud": 27.913011,
-    "longitud": -82.702449,
-    "companies": 66.62,
-    "design": 0.06,
-    "score": 57.83
-  },
-  {
-    "name": "TRUECar",
-    "office_numb": 5,
-    "latitud": 34.4405218,
-    "longitud": -119.7445783,
-    "companies": 66.62,
-    "design": 0.0,
-    "score": 57.8
+    "score": 68.82
   },
   {
     "name": "SAVO",
@@ -141,7 +51,70 @@
     "longitud": -87.640458,
     "companies": 51.37,
     "design": 33.67,
-    "score": 57.1
+    "score": 52.82
+  },
+  {
+    "name": "UsingMiles",
+    "office_numb": 1,
+    "latitud": 39.749671,
+    "longitud": -104.9998449,
+    "companies": 66.92,
+    "design": 8.14,
+    "score": 51.19
+  },
+  {
+    "name": "Burt",
+    "office_numb": 1,
+    "latitud": 59.337864,
+    "longitud": 18.036587,
+    "companies": 66.62,
+    "design": 6.64,
+    "score": 50.24
+  },
+  {
+    "name": "OnForce",
+    "office_numb": 1,
+    "latitud": 42.47218,
+    "longitud": -71.262508,
+    "companies": 67.36,
+    "design": 0.83,
+    "score": 47.89
+  },
+  {
+    "name": "Tweegee",
+    "office_numb": 1,
+    "latitud": 32.037363,
+    "longitud": 34.8003705,
+    "companies": 66.62,
+    "design": 1.08,
+    "score": 47.49
+  },
+  {
+    "name": "TRUECar",
+    "office_numb": 4,
+    "latitud": 30.3096936,
+    "longitud": -97.9390133,
+    "companies": 67.26,
+    "design": 0.12,
+    "score": 47.47
+  },
+  {
+    "name": "Inuvo",
+    "office_numb": 1,
+    "latitud": 27.913011,
+    "longitud": -82.702449,
+    "companies": 66.62,
+    "design": 0.06,
+    "score": 46.99
+  },
+  {
+    "name": "TRUECar",
+    "office_numb": 5,
+    "latitud": 34.4405218,
+    "longitud": -119.7445783,
+    "companies": 66.62,
+    "design": 0.0,
+    "score": 46.96
   },
   {
     "name": "Strutta",
@@ -150,7 +123,7 @@
     "longitud": -123.1078045,
     "companies": 40.11,
     "design": 30.48,
-    "score": 46.14
+    "score": 43.31
   },
   {
     "name": "FlightStats",
@@ -159,7 +132,7 @@
     "longitud": -122.675428,
     "companies": 33.48,
     "design": 30.48,
-    "score": 40.39
+    "score": 38.64
   },
   {
     "name": "23andMe",
@@ -168,7 +141,7 @@
     "longitud": -95.712891,
     "companies": 33.31,
     "design": 30.72,
-    "score": 40.34
+    "score": 38.63
   },
   {
     "name": "Netbiscuits",
@@ -177,6 +150,33 @@
     "longitud": 7.8068522,
     "companies": 33.31,
     "design": 30.72,
-    "score": 40.34
+    "score": 38.63
+  },
+  {
+    "name": "fotopedia",
+    "office_numb": 1,
+    "latitud": 48.856667,
+    "longitud": 2.350987,
+    "companies": 33.61,
+    "design": 21.08,
+    "score": 34.09
+  },
+  {
+    "name": "Phonezoo",
+    "office_numb": 1,
+    "latitud": 37.386376,
+    "longitud": -121.991471,
+    "companies": 44.24,
+    "design": 4.58,
+    "score": 33.45
+  },
+  {
+    "name": "Movirtu",
+    "office_numb": 3,
+    "latitud": 28.5821195,
+    "longitud": 77.3266991,
+    "companies": 33.31,
+    "design": 14.78,
+    "score": 30.77
   }
 ]
